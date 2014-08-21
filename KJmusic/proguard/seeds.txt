@@ -1,0 +1,467 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+net.tsz.afinal.FinalActivity: FinalActivity()
+net.tsz.afinal.FinalActivity: void setContentView(android.view.View)
+net.tsz.afinal.core.AsyncTask$Status: net.tsz.afinal.core.AsyncTask$Status[] values()
+net.tsz.afinal.core.AsyncTask$Status: net.tsz.afinal.core.AsyncTask$Status valueOf(java.lang.String)
+org.kymjs.music.AppContext
+org.kymjs.music.AppContext: AppContext()
+org.kymjs.music.AppStart
+org.kymjs.music.AppStart: AppStart()
+org.kymjs.music.R$anim: int alpha
+org.kymjs.music.R$anim: int in_from_right
+org.kymjs.music.R$anim: int login_loading
+org.kymjs.music.R$anim: int out_to_left
+org.kymjs.music.R$anim: int translucent_zoom_exit
+org.kymjs.music.R$anim: int translucent_zoom_out
+org.kymjs.music.R$color: int black
+org.kymjs.music.R$color: int blue
+org.kymjs.music.R$color: int full_transparent
+org.kymjs.music.R$color: int gold
+org.kymjs.music.R$color: int gray
+org.kymjs.music.R$color: int grayslate
+org.kymjs.music.R$color: int graywhite
+org.kymjs.music.R$color: int green
+org.kymjs.music.R$color: int half_transparent
+org.kymjs.music.R$color: int lemonyellow
+org.kymjs.music.R$color: int lightblue
+org.kymjs.music.R$color: int main_title_orange
+org.kymjs.music.R$color: int orange
+org.kymjs.music.R$color: int pink
+org.kymjs.music.R$color: int purple
+org.kymjs.music.R$color: int red
+org.kymjs.music.R$color: int white
+org.kymjs.music.R$color: int yellow
+org.kymjs.music.R$dimen: int activity_horizontal_margin
+org.kymjs.music.R$dimen: int lrc_bottom_height
+org.kymjs.music.R$dimen: int space_3
+org.kymjs.music.R$dimen: int space_5
+org.kymjs.music.R$drawable: int adp_collect_click
+org.kymjs.music.R$drawable: int adp_collect_nor
+org.kymjs.music.R$drawable: int adp_menu_normal
+org.kymjs.music.R$drawable: int adp_menu_press
+org.kymjs.music.R$drawable: int adp_nottocollect_click
+org.kymjs.music.R$drawable: int adp_nottocollect_nor
+org.kymjs.music.R$drawable: int bg_img_list
+org.kymjs.music.R$drawable: int bg_img_menuback_cool
+org.kymjs.music.R$drawable: int bg_start
+org.kymjs.music.R$drawable: int bt_localmusic_search_nor
+org.kymjs.music.R$drawable: int bt_localmusic_search_press
+org.kymjs.music.R$drawable: int bt_next_nor
+org.kymjs.music.R$drawable: int bt_next_press
+org.kymjs.music.R$drawable: int bt_pause_nor
+org.kymjs.music.R$drawable: int bt_pause_press
+org.kymjs.music.R$drawable: int bt_play_nor
+org.kymjs.music.R$drawable: int bt_play_press
+org.kymjs.music.R$drawable: int bt_playing_album_black_nor
+org.kymjs.music.R$drawable: int bt_playing_album_black_press
+org.kymjs.music.R$drawable: int bt_playing_back_nor
+org.kymjs.music.R$drawable: int bt_playing_back_press
+org.kymjs.music.R$drawable: int bt_playing_collect_nor
+org.kymjs.music.R$drawable: int bt_playing_collect_press
+org.kymjs.music.R$drawable: int bt_playing_collected_nor
+org.kymjs.music.R$drawable: int bt_playing_collected_press
+org.kymjs.music.R$drawable: int bt_playing_lyric_black_nor
+org.kymjs.music.R$drawable: int bt_playing_lyric_black_press
+org.kymjs.music.R$drawable: int bt_playing_mode_cycle
+org.kymjs.music.R$drawable: int bt_playing_mode_cycle_nor
+org.kymjs.music.R$drawable: int bt_playing_mode_cycle_press
+org.kymjs.music.R$drawable: int bt_playing_mode_order
+org.kymjs.music.R$drawable: int bt_playing_mode_order_nor
+org.kymjs.music.R$drawable: int bt_playing_mode_order_press
+org.kymjs.music.R$drawable: int bt_playing_mode_shuffle
+org.kymjs.music.R$drawable: int bt_playing_mode_shuffle_nor
+org.kymjs.music.R$drawable: int bt_playing_mode_shuffle_press
+org.kymjs.music.R$drawable: int bt_playing_mode_singlecycle
+org.kymjs.music.R$drawable: int bt_playing_mode_singlecycle_nor
+org.kymjs.music.R$drawable: int bt_playing_mode_singlecycle_press
+org.kymjs.music.R$drawable: int bt_playing_more_album_nor
+org.kymjs.music.R$drawable: int bt_playing_more_album_press
+org.kymjs.music.R$drawable: int bt_playing_more_search_nor
+org.kymjs.music.R$drawable: int bt_playing_more_search_press
+org.kymjs.music.R$drawable: int bt_playing_more_singer_nor
+org.kymjs.music.R$drawable: int bt_playing_more_singer_press
+org.kymjs.music.R$drawable: int bt_playing_share_nor
+org.kymjs.music.R$drawable: int bt_playing_share_press
+org.kymjs.music.R$drawable: int bt_prev_nor
+org.kymjs.music.R$drawable: int bt_prev_press
+org.kymjs.music.R$drawable: int bt_radio_next_nor
+org.kymjs.music.R$drawable: int bt_radio_next_press
+org.kymjs.music.R$drawable: int bt_radio_pause_nor
+org.kymjs.music.R$drawable: int bt_radio_pause_press
+org.kymjs.music.R$drawable: int bt_radio_play_nor
+org.kymjs.music.R$drawable: int bt_radio_play_press
+org.kymjs.music.R$drawable: int bt_radio_prev_nor
+org.kymjs.music.R$drawable: int bt_radio_prev_press
+org.kymjs.music.R$drawable: int btn_wel_nor
+org.kymjs.music.R$drawable: int btn_wel_pressed
+org.kymjs.music.R$drawable: int circle_normal
+org.kymjs.music.R$drawable: int circle_pressed
+org.kymjs.music.R$drawable: int ic_action_search
+org.kymjs.music.R$drawable: int ic_collect_line
+org.kymjs.music.R$drawable: int ic_douban
+org.kymjs.music.R$drawable: int ic_logo
+org.kymjs.music.R$drawable: int icon_down
+org.kymjs.music.R$drawable: int icon_quit
+org.kymjs.music.R$drawable: int icon_scan
+org.kymjs.music.R$drawable: int icon_setup
+org.kymjs.music.R$drawable: int icon_timer
+org.kymjs.music.R$drawable: int img_noplaying
+org.kymjs.music.R$drawable: int img_playing
+org.kymjs.music.R$drawable: int login_bg
+org.kymjs.music.R$drawable: int login_btn_selector
+org.kymjs.music.R$drawable: int login_button
+org.kymjs.music.R$drawable: int login_button_press
+org.kymjs.music.R$drawable: int login_checkbox_selected
+org.kymjs.music.R$drawable: int login_checkbox_selector
+org.kymjs.music.R$drawable: int login_checkbox_unselected
+org.kymjs.music.R$drawable: int login_close_button
+org.kymjs.music.R$drawable: int login_close_button_nor
+org.kymjs.music.R$drawable: int login_close_button_over
+org.kymjs.music.R$drawable: int login_line
+org.kymjs.music.R$drawable: int login_loading_10
+org.kymjs.music.R$drawable: int login_loading_11
+org.kymjs.music.R$drawable: int login_loading_12
+org.kymjs.music.R$drawable: int login_loading_13
+org.kymjs.music.R$drawable: int login_loading_14
+org.kymjs.music.R$drawable: int login_loading_15
+org.kymjs.music.R$drawable: int login_loading_16
+org.kymjs.music.R$drawable: int login_loading_17
+org.kymjs.music.R$drawable: int login_loading_18
+org.kymjs.music.R$drawable: int login_loading_19
+org.kymjs.music.R$drawable: int login_user_table_bg
+org.kymjs.music.R$drawable: int main_bottom_shadow
+org.kymjs.music.R$drawable: int menu_background
+org.kymjs.music.R$drawable: int menu_background_cool
+org.kymjs.music.R$drawable: int page_point_focused
+org.kymjs.music.R$drawable: int page_point_unfocused
+org.kymjs.music.R$drawable: int pop_bell
+org.kymjs.music.R$drawable: int pop_collect_off
+org.kymjs.music.R$drawable: int pop_collect_on
+org.kymjs.music.R$drawable: int pop_delete
+org.kymjs.music.R$drawable: int pop_share
+org.kymjs.music.R$drawable: int progress_dot_default
+org.kymjs.music.R$drawable: int progressbar_second
+org.kymjs.music.R$drawable: int radiogroup_bg
+org.kymjs.music.R$drawable: int selector_adp_collect
+org.kymjs.music.R$drawable: int selector_adp_menu
+org.kymjs.music.R$drawable: int selector_adp_notcollect
+org.kymjs.music.R$drawable: int selector_btn_next
+org.kymjs.music.R$drawable: int selector_btn_pause
+org.kymjs.music.R$drawable: int selector_btn_play
+org.kymjs.music.R$drawable: int selector_btn_prev
+org.kymjs.music.R$drawable: int selector_btn_welcome
+org.kymjs.music.R$drawable: int selector_hidemenu_album
+org.kymjs.music.R$drawable: int selector_hidemenu_search
+org.kymjs.music.R$drawable: int selector_hidemenu_singer
+org.kymjs.music.R$drawable: int selector_lrc_back
+org.kymjs.music.R$drawable: int selector_lrc_collect
+org.kymjs.music.R$drawable: int selector_lrc_collected
+org.kymjs.music.R$drawable: int selector_lrc_share
+org.kymjs.music.R$drawable: int selector_lrc_wordimg
+org.kymjs.music.R$drawable: int selector_main_search
+org.kymjs.music.R$drawable: int selector_page_point
+org.kymjs.music.R$drawable: int selector_pop_collect
+org.kymjs.music.R$drawable: int selector_radio_next
+org.kymjs.music.R$drawable: int selector_radio_pause
+org.kymjs.music.R$drawable: int selector_radio_play
+org.kymjs.music.R$drawable: int selector_radio_prev
+org.kymjs.music.R$drawable: int selector_rbtn_circle
+org.kymjs.music.R$drawable: int shadow
+org.kymjs.music.R$drawable: int shape_border
+org.kymjs.music.R$drawable: int welcome_1
+org.kymjs.music.R$drawable: int welcome_2
+org.kymjs.music.R$drawable: int welcome_3
+org.kymjs.music.R$drawable: int welcome_4
+org.kymjs.music.R$id: int action_settings
+org.kymjs.music.R$id: int bottom_bar
+org.kymjs.music.R$id: int bottom_btn_next
+org.kymjs.music.R$id: int bottom_btn_play
+org.kymjs.music.R$id: int bottom_btn_previous
+org.kymjs.music.R$id: int bottom_img_image
+org.kymjs.music.R$id: int bottom_img_shadow
+org.kymjs.music.R$id: int bottom_tv_artist
+org.kymjs.music.R$id: int bottom_tv_title
+org.kymjs.music.R$id: int collect_cursor
+org.kymjs.music.R$id: int collect_title1
+org.kymjs.music.R$id: int collect_title2
+org.kymjs.music.R$id: int collect_title3
+org.kymjs.music.R$id: int img_start
+org.kymjs.music.R$id: int iv_background
+org.kymjs.music.R$id: int iv_icon
+org.kymjs.music.R$id: int iv_shadow
+org.kymjs.music.R$id: int layout_menu
+org.kymjs.music.R$id: int list_img_button
+org.kymjs.music.R$id: int list_item_artist
+org.kymjs.music.R$id: int list_item_img
+org.kymjs.music.R$id: int list_item_title
+org.kymjs.music.R$id: int login_account
+org.kymjs.music.R$id: int login_btn_login
+org.kymjs.music.R$id: int login_checkbox_rememberMe
+org.kymjs.music.R$id: int login_close_button
+org.kymjs.music.R$id: int login_loading
+org.kymjs.music.R$id: int login_password
+org.kymjs.music.R$id: int login_scrollview
+org.kymjs.music.R$id: int login_uly
+org.kymjs.music.R$id: int login_user_table
+org.kymjs.music.R$id: int logindialog_space
+org.kymjs.music.R$id: int logindialog_view_switcher
+org.kymjs.music.R$id: int lrc_bottom
+org.kymjs.music.R$id: int lrc_btn_back
+org.kymjs.music.R$id: int lrc_btn_loop
+org.kymjs.music.R$id: int lrc_btn_menu
+org.kymjs.music.R$id: int lrc_btn_next
+org.kymjs.music.R$id: int lrc_btn_play
+org.kymjs.music.R$id: int lrc_btn_prev
+org.kymjs.music.R$id: int lrc_cbox_wordimg
+org.kymjs.music.R$id: int lrc_circle_layout
+org.kymjs.music.R$id: int lrc_hidemenu
+org.kymjs.music.R$id: int lrc_hidemenu_img_album
+org.kymjs.music.R$id: int lrc_hidemenu_img_search
+org.kymjs.music.R$id: int lrc_hidemenu_img_singer
+org.kymjs.music.R$id: int lrc_image
+org.kymjs.music.R$id: int lrc_layout
+org.kymjs.music.R$id: int lrc_main_artist
+org.kymjs.music.R$id: int lrc_main_collect
+org.kymjs.music.R$id: int lrc_main_share
+org.kymjs.music.R$id: int lrc_main_title
+org.kymjs.music.R$id: int lrc_menu
+org.kymjs.music.R$id: int lrc_pager_list
+org.kymjs.music.R$id: int lrc_pager_main
+org.kymjs.music.R$id: int lrc_seekbar_music
+org.kymjs.music.R$id: int lrc_tablayout
+org.kymjs.music.R$id: int lyric_pager_lrcView
+org.kymjs.music.R$id: int mainRLayout
+org.kymjs.music.R$id: int main_aty
+org.kymjs.music.R$id: int main_aty_lyric
+org.kymjs.music.R$id: int main_fragment
+org.kymjs.music.R$id: int main_layout_bottombar
+org.kymjs.music.R$id: int main_layout_lyric
+org.kymjs.music.R$id: int main_pager
+org.kymjs.music.R$id: int notif_img_logo
+org.kymjs.music.R$id: int pager_et_search
+org.kymjs.music.R$id: int pager_grid_fm
+org.kymjs.music.R$id: int pager_img_fm
+org.kymjs.music.R$id: int pager_online_list
+org.kymjs.music.R$id: int pagination_footer_content
+org.kymjs.music.R$id: int pagination_footer_hint_textview
+org.kymjs.music.R$id: int pagination_footer_progressbar
+org.kymjs.music.R$id: int pagination_header_arrow
+org.kymjs.music.R$id: int pagination_header_content
+org.kymjs.music.R$id: int pagination_header_hint_textview
+org.kymjs.music.R$id: int pagination_header_progressbar
+org.kymjs.music.R$id: int pagination_header_text
+org.kymjs.music.R$id: int pagination_header_time
+org.kymjs.music.R$id: int pointLayout
+org.kymjs.music.R$id: int scan_music_title
+org.kymjs.music.R$id: int scrollLayout
+org.kymjs.music.R$id: int startBtn
+org.kymjs.music.R$id: int sv_menu
+org.kymjs.music.R$id: int tv_title
+org.kymjs.music.R$layout: int aty_fm
+org.kymjs.music.R$layout: int aty_login
+org.kymjs.music.R$layout: int aty_start
+org.kymjs.music.R$layout: int aty_welcome_first
+org.kymjs.music.R$layout: int bottombar
+org.kymjs.music.R$layout: int frag_lyric
+org.kymjs.music.R$layout: int frag_lyric_list
+org.kymjs.music.R$layout: int frag_lyric_lrc
+org.kymjs.music.R$layout: int frag_lyric_main
+org.kymjs.music.R$layout: int frag_main
+org.kymjs.music.R$layout: int list_item_lrclist
+org.kymjs.music.R$layout: int list_item_music
+org.kymjs.music.R$layout: int list_item_online
+org.kymjs.music.R$layout: int main
+org.kymjs.music.R$layout: int main_activity
+org.kymjs.music.R$layout: int main_lyric
+org.kymjs.music.R$layout: int notif_layout
+org.kymjs.music.R$layout: int pager_item_main
+org.kymjs.music.R$layout: int pager_item_main_fm
+org.kymjs.music.R$layout: int pager_item_main_online
+org.kymjs.music.R$layout: int pagination_listview_footer
+org.kymjs.music.R$layout: int pagination_listview_header
+org.kymjs.music.R$layout: int pop_collect
+org.kymjs.music.R$layout: int residemenu
+org.kymjs.music.R$layout: int residemenu_item
+org.kymjs.music.R$menu: int main
+org.kymjs.music.R$string: int PassWord
+org.kymjs.music.R$string: int UserID
+org.kymjs.music.R$string: int action_settings
+org.kymjs.music.R$string: int app_name
+org.kymjs.music.R$string: int hello_world
+org.kymjs.music.R$string: int input_pwd
+org.kymjs.music.R$string: int input_username
+org.kymjs.music.R$string: int local_music
+org.kymjs.music.R$string: int my_collect
+org.kymjs.music.R$string: int net_music
+org.kymjs.music.R$string: int remember
+org.kymjs.music.R$string: int sign
+org.kymjs.music.R$string: int userID
+org.kymjs.music.R$style: int AppBaseTheme
+org.kymjs.music.R$style: int AppTheme
+org.kymjs.music.R$style: int Theme_HalfTranslucent
+org.kymjs.music.R$style: int Translucent
+org.kymjs.music.R$style: int lrc_bottom
+org.kymjs.music.R$style: int main_title
+org.kymjs.music.R$style: int marquee
+org.kymjs.music.R$style: int radioButton_style
+org.kymjs.music.bean.Music
+org.kymjs.music.bean.Music: int id
+org.kymjs.music.bean.Music: java.lang.String title
+org.kymjs.music.bean.Music: java.lang.String artist
+org.kymjs.music.bean.Music: java.lang.String path
+org.kymjs.music.bean.Music: java.lang.String size
+org.kymjs.music.bean.Music: int collect
+org.kymjs.music.bean.Music: java.lang.String encode
+org.kymjs.music.bean.Music: java.lang.String decode
+org.kymjs.music.bean.Music: java.lang.String lrcId
+org.kymjs.music.bean.Music: java.lang.String lrcUrl
+org.kymjs.music.bean.Music: java.lang.String imgUrl
+org.kymjs.music.bean.Music: Music()
+org.kymjs.music.bean.Music: java.lang.String getImgUrl()
+org.kymjs.music.bean.Music: void setImgUrl(java.lang.String)
+org.kymjs.music.bean.Music: java.lang.String getLrcId()
+org.kymjs.music.bean.Music: void setLrcId(java.lang.String)
+org.kymjs.music.bean.Music: java.lang.String getLrcUrl()
+org.kymjs.music.bean.Music: int getId()
+org.kymjs.music.bean.Music: void setId(int)
+org.kymjs.music.bean.Music: java.lang.String getTitle()
+org.kymjs.music.bean.Music: void setTitle(java.lang.String)
+org.kymjs.music.bean.Music: java.lang.String getArtist()
+org.kymjs.music.bean.Music: void setArtist(java.lang.String)
+org.kymjs.music.bean.Music: java.lang.String getPath()
+org.kymjs.music.bean.Music: void setPath(java.lang.String)
+org.kymjs.music.bean.Music: java.lang.String getSize()
+org.kymjs.music.bean.Music: void setSize(java.lang.String)
+org.kymjs.music.bean.Music: int getCollect()
+org.kymjs.music.bean.Music: void setCollect(int)
+org.kymjs.music.bean.Music: java.lang.String getEncode()
+org.kymjs.music.bean.Music: void setEncode(java.lang.String)
+org.kymjs.music.bean.Music: java.lang.String getDecode()
+org.kymjs.music.bean.Music: void setDecode(java.lang.String)
+org.kymjs.music.bean.Music: void setLrcUrl(java.lang.String)
+org.kymjs.music.service.DownMusicInfo
+org.kymjs.music.service.DownMusicInfo: DownMusicInfo()
+org.kymjs.music.service.DownMusicLrc
+org.kymjs.music.service.DownMusicLrc: DownMusicLrc()
+org.kymjs.music.service.PlayerService
+org.kymjs.music.service.PlayerService: PlayerService()
+org.kymjs.music.service.ScanMusic
+org.kymjs.music.service.ScanMusic: ScanMusic()
+org.kymjs.music.ui.BaseActivity: BaseActivity()
+org.kymjs.music.ui.BaseActivity: void widgetClick(android.view.View)
+org.kymjs.music.ui.BaseActivity: void onClick(android.view.View)
+org.kymjs.music.ui.FMActivity
+org.kymjs.music.ui.FMActivity: FMActivity()
+org.kymjs.music.ui.FMActivity: void widgetClick(android.view.View)
+org.kymjs.music.ui.FirstInstallActivity
+org.kymjs.music.ui.FirstInstallActivity: FirstInstallActivity()
+org.kymjs.music.ui.FirstInstallActivity: void widgetClick(android.view.View)
+org.kymjs.music.ui.LoginDialog
+org.kymjs.music.ui.LoginDialog: LoginDialog()
+org.kymjs.music.ui.LoginDialog: void widgetClick(android.view.View)
+org.kymjs.music.ui.Main
+org.kymjs.music.ui.Main: Main()
+org.kymjs.music.ui.Main: void widgetClick(android.view.View)
+org.kymjs.music.ui.widget.JSViewPager
+org.kymjs.music.ui.widget.JSViewPager: JSViewPager(android.content.Context)
+org.kymjs.music.ui.widget.JSViewPager: JSViewPager(android.content.Context,android.util.AttributeSet)
+org.kymjs.music.ui.widget.LrcView
+org.kymjs.music.ui.widget.LrcView: LrcView(android.content.Context)
+org.kymjs.music.ui.widget.LrcView: LrcView(android.content.Context,android.util.AttributeSet)
+org.kymjs.music.ui.widget.LrcView: void setListener(org.kymjs.music.ui.widget.ILrcView$LrcViewListener)
+org.kymjs.music.ui.widget.LrcView: void setLoadingTipText(java.lang.String)
+org.kymjs.music.ui.widget.LrcView: java.lang.String getLoadingTipText()
+org.kymjs.music.ui.widget.LrcView: void setTwoPointerLocation(android.view.MotionEvent)
+org.kymjs.music.ui.widget.LrcView: void setNewFontSize(int)
+org.kymjs.music.ui.widget.LrcView: void setLrc(java.util.List)
+org.kymjs.music.ui.widget.ResideMenu: void setBackground(int)
+org.kymjs.music.ui.widget.ResideMenu: void setShadowVisible(boolean)
+org.kymjs.music.ui.widget.ResideMenu: void setMenuItems(java.util.List)
+org.kymjs.music.ui.widget.ResideMenu: java.util.List getMenuItems()
+org.kymjs.music.ui.widget.ResideMenu: void setMenuListener(org.kymjs.music.ui.widget.ResideMenu$OnMenuListener)
+org.kymjs.music.ui.widget.ResideMenu: org.kymjs.music.ui.widget.ResideMenu$OnMenuListener getMenuListener()
+org.kymjs.music.ui.widget.ResideMenu: int getScreenHeight()
+org.kymjs.music.ui.widget.ResideMenu: int getScreenWidth()
+org.kymjs.music.ui.widget.ResideMenuItem: void setIcon(int)
+org.kymjs.music.ui.widget.ResideMenuItem: void setTitle(int)
+org.kymjs.music.ui.widget.ResideMenuItem: void setTitle(java.lang.String)
+org.kymjs.music.ui.widget.ScrollGridView
+org.kymjs.music.ui.widget.ScrollGridView: ScrollGridView(android.content.Context)
+org.kymjs.music.ui.widget.ScrollGridView: ScrollGridView(android.content.Context,android.util.AttributeSet)
+org.kymjs.music.ui.widget.ScrollGridView: ScrollGridView(android.content.Context,android.util.AttributeSet,int)
+org.kymjs.music.ui.widget.ScrollLayout
+org.kymjs.music.ui.widget.ScrollLayout: ScrollLayout(android.content.Context,android.util.AttributeSet,int)
+org.kymjs.music.ui.widget.ScrollLayout: ScrollLayout(android.content.Context,android.util.AttributeSet)
+org.kymjs.music.ui.widget.ScrollLayout: ScrollLayout(android.content.Context)
+org.kymjs.music.ui.widget.ScrollLayout: void setOnViewChangeLintener(org.kymjs.music.ui.widget.ScrollLayout$OnViewChangeListener)
+org.kymjs.music.ui.widget.TabLayout
+org.kymjs.music.ui.widget.TabLayout: void setScroll(boolean)
+org.kymjs.music.ui.widget.TabLayout: TabLayout(android.content.Context,android.util.AttributeSet)
+org.kymjs.music.ui.widget.TabLayout: TabLayout(android.content.Context,android.util.AttributeSet,int)
+org.kymjs.music.ui.widget.TabLayout: void setToScreen(int)
+org.kymjs.music.ui.widget.TabLayout: int getCurScreen()

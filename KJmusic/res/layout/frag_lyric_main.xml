@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lrc_pager_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 歌词界面隐藏的菜单 -->
+
+    <RelativeLayout
+        android:id="@+id/lrc_hidemenu"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/lrc_menu"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/lrc_hidemenu_img_album"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:src="@drawable/selector_hidemenu_album" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/lrc_hidemenu_img_album"
+                    android:text="查看专辑" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/lrc_hidemenu_img_singer"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:src="@drawable/selector_hidemenu_singer" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/lrc_hidemenu_img_singer"
+                    android:text="查看歌手" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/lrc_hidemenu_img_search"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="5dp"
+                    android:src="@drawable/selector_hidemenu_search" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/lrc_hidemenu_img_search"
+                    android:text="搜索歌词" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lrc_hidemenu" >
+
+        <TextView
+            android:id="@+id/lrc_main_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/lrc_main_title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/lrc_main_artist"
+            android:layout_alignLeft="@+id/lrc_main_artist"
+            android:layout_marginBottom="2dp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/lrc_main_share"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="55dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/selector_lrc_share" />
+
+        <Button
+            android:id="@+id/lrc_main_collect"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="55dp"
+            android:layout_marginRight="60dp"
+            android:layout_toLeftOf="@+id/lrc_main_share"
+            android:background="@drawable/selector_lrc_collect" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lrc_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img_menuback_cool" >
+
+    <!-- 专辑图片 -->
+
+    <ImageView
+        android:id="@+id/lrc_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="81dp"
+        android:layout_marginTop="52dp"
+        android:alpha="77"
+        android:padding="10dp"
+        android:scaleType="fitCenter" />
+    <!-- 顶部的小点点 -->
+
+    <RadioGroup
+        android:id="@+id/lrc_circle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/lrc_btn_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_lrc_back" />
+
+    <CheckBox
+        android:id="@+id/lrc_cbox_wordimg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_lrc_wordimg"
+        android:button="@null"
+        android:checked="false" />
+
+    <!-- 歌词界面底部栏 -->
+
+    <RelativeLayout
+        android:id="@+id/lrc_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:background="#ffffffff" >
+
+        <ImageView
+            android:id="@+id/lrc_btn_play"
+            style="@style/lrc_bottom"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:background="#19a0e4"
+            android:src="@drawable/selector_radio_play" />
+
+        <ImageView
+            android:id="@+id/lrc_btn_prev"
+            style="@style/lrc_bottom"
+            android:layout_width="49dp"
+            android:layout_height="37dp"
+            android:layout_toLeftOf="@+id/lrc_btn_play"
+            android:src="@drawable/selector_radio_prev" />
+
+        <ImageView
+            android:id="@+id/lrc_btn_next"
+            style="@style/lrc_bottom"
+            android:layout_width="49dp"
+            android:layout_height="37dp"
+            android:layout_toRightOf="@+id/lrc_btn_play"
+            android:src="@drawable/selector_radio_next" />
+
+        <ImageView
+            android:id="@+id/lrc_btn_loop"
+            style="@style/lrc_bottom"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/bt_playing_mode_cycle" />
+
+        <ImageView
+            android:id="@+id/lrc_btn_menu"
+            style="@style/lrc_bottom"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/bt_playing_mode_cycle" />
+    </RelativeLayout>
+
+    <!-- 歌词界面内容部分 -->
+
+    <org.kymjs.music.ui.widget.TabLayout
+        android:id="@+id/lrc_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="81dp"
+        android:layout_marginTop="52dp" >
+
+        <include layout="@layout/frag_lyric_list" />
+
+        <include layout="@layout/frag_lyric_main" />
+
+        <include layout="@layout/frag_lyric_lrc" />
+    </org.kymjs.music.ui.widget.TabLayout>
+
+    <!-- 歌曲播放进度条 -->
+
+    <SeekBar
+        android:id="@+id/lrc_seekbar_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="65dp"
+        android:thumb="@drawable/progress_dot_default" />
+
+</FrameLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.kymjs.music"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <!-- 访问网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 访问SD卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="org.kymjs.music.AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:persistent="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.kymjs.music.AppStart"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.kymjs.music.ui.LoginDialog"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.HalfTranslucent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity android:name="org.kymjs.music.ui.Main" />
+        <activity android:name="org.kymjs.music.ui.FirstInstallActivity" />
+        <activity android:name="org.kymjs.music.ui.FMActivity" />
+
+        <service android:name="org.kymjs.music.service.ScanMusic" />
+        <service android:name="org.kymjs.music.service.PlayerService" />
+        <service android:name="org.kymjs.music.service.DownMusicInfo" />
+        <service android:name="org.kymjs.music.service.DownMusicLrc" />
+    </application>
+
+</manifest>

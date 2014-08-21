@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp" >
+
+    <EditText
+        android:id="@+id/pager_et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="歌曲，歌手，专辑，电台"
+        android:paddingRight="20dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pager_et_search"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/pager_et_search"
+        android:layout_marginRight="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/selector_main_search" />
+
+    <org.kymjs.music.ui.widget.DragListView
+        android:id="@+id/pager_online_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pager_et_search" />
+
+</RelativeLayout>

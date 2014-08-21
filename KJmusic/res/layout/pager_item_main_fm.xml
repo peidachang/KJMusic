@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp" >
+
+    <EditText
+        android:id="@+id/pager_et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="歌曲，歌手，专辑，电台"
+        android:paddingRight="20dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pager_et_search"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/pager_et_search"
+        android:layout_marginRight="5dp"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/selector_main_search" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/pager_et_search" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/pager_img_fm"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_margin="2dp"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_douban" />
+
+            <org.kymjs.music.ui.widget.ScrollGridView
+                android:id="@+id/pager_grid_fm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pager_img_fm"
+                android:gravity="center"
+                android:horizontalSpacing="10dp"
+                android:numColumns="2"
+                android:padding="5dp"
+                android:verticalSpacing="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

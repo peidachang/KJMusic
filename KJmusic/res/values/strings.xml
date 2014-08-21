@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KJ音乐</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="local_music">本地音乐</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="net_music">网络音乐</string>
+
+    <string name="UserID">账号:</string>
+    <string name="PassWord">密码:</string>
+    <string name="remember">记住我的登录信息</string>
+    <string name="sign">登  录</string>
+    <string name="userID">输入账号/邮箱</string>
+    
+    <string name="input_pwd">请输入密码</string>
+    <string name="input_username">请输入账号</string>
+</resources>
